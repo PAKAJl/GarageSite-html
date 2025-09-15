@@ -325,3 +325,60 @@ header{
 .info-text{
     margin-bottom: 50px;
 }
+
+.modal-frames{
+    backdrop-filter: blur(7px); 
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(50, 50, 50, 0.5);
+    height: 100%;
+    width: 100%;
+}
+
+.modal-cart{
+    position: relative;
+    top: 10%;
+    margin: 0 auto 0 auto;
+    background-color: #1c1c1c;
+    border-radius: 20px;
+    width: 900px;
+    height: 720px;
+}
+
+.cart-header{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;    
+    background-color: #212121;
+    border-radius: 20px 20px 0 0;
+}
+
+.cart-header-text{
+    font-family: Neoneon;
+    font-size: 30px;
+    color: #05F400;
+    text-shadow: 0 0 30px #05F400;
+    margin:15px 0;
+}
+
+.cart-body{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 870px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.cart-button{
+    align-self: center;
+    margin: 0 auto;
+}
+
+.cart-button-title{
+    margin: auto;
+    font-size: 16px;
+}
